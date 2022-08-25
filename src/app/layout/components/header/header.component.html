@@ -1,0 +1,326 @@
+<nav class="navbar  d-none d-lg-flex b-b">
+    <div class="container">
+
+        <div class="top__nav">
+
+            <div>
+                <ul class="top__navright">
+
+                    <li class="dropdown__Nav">
+                        <a class="nav-link dropdown-toggle pl-0 font-15" href="#" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="pe-7s-global font-18"></i> English
+                        </a>
+                        <div class="dropdown-menu">
+                            <a (click)="addclass()" class="dropdown-item" >Urdu</a>
+                            <a (click)="removeclass()" class="dropdown-item">English </a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <ul class="top__navleft">
+                    <li class="dropdown__Nav">
+                        <a class="nav-link dropdown-toggle " href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Sale
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"> +923565354</a>
+                            <a class="dropdown-item" href="#"> +923565354</a>
+                            <a class="dropdown-item" href="#"> +923565354</a>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Support</a>
+
+                    </li>
+
+                    <li class="">
+                        <a class="btn btn-accent ml-3  btn-sm" href="#" target="_blank">
+
+                            <span class="">Login</span>
+                        </a>
+                 
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg main-nav navigation  sidebar-left mobilefixed"  [ngClass]="{'navbar-expanded' : navbartoggles}">
+
+
+    <div class="container">
+
+        <button class="navbar-toggler btn--navbartoggle" type="button" (click)="navbartoggle()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#main" class="navbar-brand">
+            <img src="/assets/img/ISLogo.svg" alt="Dashcore" class="logo">
+        </a>
+        <div class="collapse navbar-collapse ml-auto" id="main-navbar">
+            <div class="sidebar-brand">
+                <!-- <a href="#">
+                    <img src="/assets/img/ISLogo.svg" alt="Dashcore Template" class="logo">
+                </a> -->
+                <p class="font-20 m-0 mt-2 mb-2 text-dark font-weight-normal">Sale: +55645656565</p>
+            </div>
+
+            <ul class="nav navbar-nav ml-auto isdropdown d-none d-lg-flex">
+
+
+                <li class="nav-item dropdown dropdown__Nav mega">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Product</a>
+                    <div class="dropdown-menu dropdown-menu Product__list animatedrop">
+
+                            <div class="service-list container-fluid">
+
+                                <div class="row">
+                                    <div class="col-lg-3 Product__listleft">
+
+
+                                        <div class="media-body font-14 text-lg-center">
+                                            <p class="my-1">Starting at</p>
+                                            <span class="" style="font-size:32px;font-weight: 500">Rs.500</span>
+                                            <p class="dec">Nobody Does it Better than us!</p>
+                                            <a class="btn btn-accent pt-1 pb-2" href="#" target="_blank">
+
+                                                <span class="">Get Start</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <div class="ProdcutList__list">
+                                            <div class="row form-row ProdcutList__list-top">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                                    <div class="service">
+                                                        <img src="/assets/img/retail-03.png" class="ProdcutList__Icon" />
+                                                        <div class="media-body">
+
+                                                            <a class="menu-item" href="#" tesx>Retail</a>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                                    <div class="service">
+                                                        <img src="/assets/img/Ecommerce-03.png" class="ProdcutList__Icon" />
+                                                        <div class="media-body">
+                                                            <a class="menu-item" href="#">Ecommerce</a>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                                    <div class="service">
+                                                        <img src="/assets/img/pos-03.png" class="ProdcutList__Icon" />
+                                                        <div class="media-body">
+                                                            <a class="menu-item" href="#">Point of sale</a>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                                    <div class="service">
+                                                        <img src="/assets/img/industry-03.png" class="ProdcutList__Icon" />
+                                                        <div class="media-body">
+                                                            <a class="menu-item" href="#">Industries</a>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row form-row mt-2">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="service py-2">
+                                                        <div class="media-body text-lg-center">
+                                                            <p class="text-lg-center font-16 font-weight-normal m-0 p-0">Csutomize
+                                                                and Extend with our
+                                                                <a href="#" class="btn-link font-16 font-weight-normal">Developer Api</a> ,
+                                                                <a href="#" class="btn-link font-16 font-weight-normal">App Store</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown  dropdown__Nav mega">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Solution</a>
+                    <div class="dropdown-menu dropdown-menu Solution__list animatedrop">
+                        <div class="container-fluid">
+
+                            <div class="service-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Cloud Hosting</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Integration</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Integration</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Integration</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Integration</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="service">
+                                            <i class="pe-7s-cloud"></i>
+                                            <div class="media-body">
+                                                <a class="menu-item" href="#">Integration</a>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resourses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+
+
+
+
+
+
+            <ul class="nav navbar-nav ml-auto MobileDrawer">
+
+
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#Productlist" role="button"
+                        aria-expanded="false" aria-controls="Productlist">Product</a>
+                    <div class="collapse" id="Productlist">
+
+                        <ul class="nav flex-column mobile__Submenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Retail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ecommerce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Point of Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Industry</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown  dropdown__Nav mega">
+                    <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#Solutionlist" role="button"
+                        aria-expanded="false" aria-controls="Solutionlist">Solution</a>
+                    <div class="collapse" id="Solutionlist">
+
+                        <ul class="nav flex-column mobile__Submenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Retail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ecommerce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Point of Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Industry</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resourses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+
+
+            <ul class="nav navbar-nav ml-auto Support__Mobile">
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Get Start</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>

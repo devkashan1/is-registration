@@ -1,0 +1,32 @@
+.rtl {
+    direction: rtl !important;
+    text-align:right
+}
+.rtl .pkg-featre ul li:before {
+   display: none;
+}
+.rtl .pkg-featre ul li:after {
+    content: '\f00c';
+    font-family: Font Awesome\ 5 Pro;
+    padding-left: 10px;
+    color: #2e77dd;
+    font-weight: 400;
+    font-size: 15px;
+}
+.rtl .text-right {
+    text-align: left !important;
+}
+.rtl  .PlanPickerWizard .rms-multistep-progressbar li.rms-step:first-child:after {
+    right: 50%;
+    left: auto;
+    left: initial;
+}
+.rtl   .PlanPickerWizard .rms-multistep-progressbar li.rms-step:after {
+
+    right: 0;
+    left: auto;
+    left: initial;
+}
+.rtl  .mr-3 {
+    margin-left: 1rem !important;
+}

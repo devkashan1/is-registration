@@ -1,0 +1,12 @@
+
+@media (min-width: 992px) {
+    .PlanPickerWizard .rms-container {
+        width: 60%;
+    }
+    }
+    
+@media (max-width: 991px) {
+
+   .signupslider  .signupslider{
+        margin-top: 30px;
+    } }

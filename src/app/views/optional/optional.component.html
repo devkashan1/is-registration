@@ -1,0 +1,142 @@
+<section class="section lightweight-template">
+  <div class="container py-1">
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mx-auto">
+        <div class="defaultTheme PlanPickerWizard">
+          <div class="rms-container">
+            <div class="rms-form-wizard">
+              <div class="rms-step-section compeletedStepClickable" data-step-counter="true" data-step-image="false">
+                <ul class="rms-multistep-progressbar">
+                  <li class="rms-step completed-step"><span class="step-title">Plan</span>
+                  </li>
+                  <li class="rms-step completed-step"><span class="step-title">Billing</span>
+                  </li>
+                  <li class="rms-step completed-step"><span class="step-title">Shop Setup</span>
+                  </li>
+                  <li class="rms-step rms-current-step"><span class="step-title">Configuration</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="section lightweight-template">
+  <div class="container pt-0">
+    <div class="row">
+      <div class="col-lg-11 col-md-12 mx-auto col-md-12">
+        <div class="row">
+
+          <div class="col-lg-7 col-md-12">
+
+
+
+            <div class="card  my-3">
+              <div class="card-body">
+                <!-- <h3 class="h4 text-darkgrey"> Configuration </h3>
+                <p class="text-grey font-15 my-3">Bacha ch**ne ky lya card ki detail daal.</p> -->
+
+                <div class="form-horizontal PlanPayMeth">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row mt-2 mb-3">
+                        <div class="col-md-12">
+                          <h3 class="font-18 text-darkgrey mb-2"> Tex Setting </h3>
+                          <p class="text-grey font-15 my-0">Configure the tax model and rate that will be applied </p>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label class=" col-md-12 col-sm-12 col-form-label">
+                          Tax Rate</label>
+                        <div class=" col-md-12 col-sm-12">
+                          <select class="form-control">
+                            <option>Inclusive (Inculde in sale)</option>
+                            <option>Enclusive (Enculde in sale)</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <div class="row">
+                            <label class=" col-md-12 col-sm-12 col-form-label">
+                              Tax </label>
+                            <div class=" col-md-12 col-sm-12">
+                              <div class="input-group">
+
+                                <input type="text" class="form-control">
+                                <div class="input-group-append">
+                                  <span class="input-group-text">%</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="row mt-4 mb-3">
+                        <div class="col-md-12">
+                          <h3 class="font-18 text-darkgrey mb-2"> Store Setting </h3>
+                          <p class="text-grey font-15 my-0">Configure the Store model and that will be applied </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <div class="row">
+                            <label class="col-form-label col-md-12">Default Language</label>
+                            <div class="col-md-12">
+                              <select class="form-control">
+                                <option>English (en)</option>
+                                <option>Udru (ur)</option>
+                                <option>(UTC-11:00) Coordinated Universal Time-11</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <div class="row"><label class="col-form-label col-md-12">Currency</label>
+                            <div class="col-md-12"><select class="form-control">
+                                <option>AFN ؋</option>
+                                <option>ARS $</option>
+                                <option>BND $</option>
+                              </select></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row  form-group mt-2">
+                          <div class="col-md-12 col-sm-12 text-right">
+                            <button class="btn btn-outline-accent font-17 mr-3" routerLink="/accountsetup">Back</button>
+                            <button class="btn btn-accent font-17" routerLink="/accountcreated">Save and Continue</button>
+      
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-5 col-md-12 ">
+            <div class="sticky">
+              <div class="card effect6 ">
+                <div class="card-body" style="padding: 0">
+                  <app-reciptsample></app-reciptsample>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<app-footerregistration></app-footerregistration>
